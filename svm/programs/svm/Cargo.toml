@@ -1,0 +1,23 @@
+[package]
+name = "svm"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "svm"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.30.1"
+wormeme_vault = { path = "../wormeme_vault", features = ["cpi"]}
+wormhole-anchor-sdk = "0.30.1-alpha.1"
+wormhole-io = "0.1.0"

@@ -1,0 +1,19 @@
+{
+  "name": "evm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "hardhat": "^2.22.15",
+    "solidity-bytes-utils": "^0.8.2",
+    "wormhole-solidity-sdk": "wormhole-foundation/wormhole-solidity-sdk"
+  }
+}
